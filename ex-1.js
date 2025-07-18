@@ -17,5 +17,3 @@ NaN === NaN; //false
 let objectA = { course: "Web Developer", price: 300000 };
 let objectB = { course: "Web Developer", price: 300000 };
 objectA === objectB;  //false 
-
-console.log(Object.is({ name: "John", age: 30 }, { name: "John", age: 30 })); //false
